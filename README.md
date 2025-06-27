@@ -1,5 +1,14 @@
 # Grp7-Assignment1
 
+## Group Members
+
+- Manzi Delphin - 26021
+- Twiringiyimana Noella - 26749
+- Byiringiro Urbain Bobola - 27150
+- Mahamat Adji Zezerti Abdramane - 25718
+- Bizima Peace - 27778
+- Mayanja Leon Sengendo - 26453
+
 ## Question 1: Count Characters in a User-Inputted String
 
 ### Instructions:
