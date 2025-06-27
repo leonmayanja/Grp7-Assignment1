@@ -38,11 +38,27 @@ student = input_student_info()
 display_student_info(student)
 ```
 
+### Explanation
+
+1. `input_student_info()`
+- Prompts the user to enter a student’s name, age, and marks for up to 3 courses.
+- Allows the user to enter 0 if a course doesn’t apply.
+- Returns the information as a dictionary.
+2. `calculate_average(marks)`
+- Filters out marks with a value of 0 (used to indicate missing courses).
+- Computes and returns the average of the remaining valid marks.
+3. `display_student_info(student)`
+- Displays the collected student information and their average grade (to two decimal places).
+
 ## Question 2: Check Palindrome
 
 ### Instructions:
 Write a function that asks the user to input a string and checks if the string is a palindrome (reads the
 same forwards and backwards). Print "Yes, it is a palindrome" or "No, it is not a palindrome".
+
+**Note**: A `palindrome` is a word or phrase that reads the same backward as forward.
+
+### Solution
 
 ```python
 def is_palindrome():
@@ -53,5 +69,12 @@ def is_palindrome():
         return "Yes - it's a palindrome!"
     else:
         return "No - it's not a palindrome."
+
+is_palindrome("Madam")  # Output: Yes - It's a palindrome!
 ```
 
+### Explanation
+
+1. Prompts the user to enter a word or phrase.
+2. Removes spaces and converts all characters to lowercase to normalize the input.
+3. Compares the cleaned string to its reverse.
